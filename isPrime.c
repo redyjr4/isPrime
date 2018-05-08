@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <math.h>
 
+
+//Returns "Segmentation fault: 11" with negative numbers
 int isPrime(unsigned long long int number)
 {
     if(number == 1 || number == 4)
